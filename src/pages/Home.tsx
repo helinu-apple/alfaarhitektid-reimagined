@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import heroBuilding from "@/assets/hero-building.jpg";
+import projectBuilding from "@/assets/project-building.jpg";
 
 const Home = () => {
   return (
@@ -6,11 +8,22 @@ const Home = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative h-[400px] bg-muted flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 grid grid-cols-8 grid-rows-6 gap-1 opacity-20">
-          {Array.from({ length: 48 }).map((_, i) => (
-            <div key={i} className="border border-border"></div>
+      <section className="relative h-[500px] bg-muted flex items-center justify-center overflow-hidden">
+        <img 
+          src={heroBuilding} 
+          alt="Modern architectural building" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-background/40"></div>
+        <div className="absolute inset-0 grid grid-cols-12 grid-rows-8 gap-px opacity-20">
+          {Array.from({ length: 96 }).map((_, i) => (
+            <div key={i} className="border border-foreground"></div>
           ))}
+        </div>
+        {/* Geometric wireframe overlay */}
+        <div className="absolute top-10 left-10 w-24 h-24 border-2 border-foreground/30 rotate-45"></div>
+        <div className="absolute bottom-10 right-10 w-32 h-32 border-2 border-foreground/30">
+          <div className="absolute inset-4 border-2 border-foreground/30"></div>
         </div>
       </section>
 
@@ -110,8 +123,18 @@ const Home = () => {
                 Projektid
               </h2>
               
-              <div className="aspect-[4/3] bg-muted relative overflow-hidden group">
-                <div className="absolute inset-0 border-4 border-foreground/10 group-hover:border-foreground/30 transition-colors"></div>
+              <div className="aspect-[4/3] bg-muted relative overflow-hidden group cursor-pointer">
+                <img 
+                  src={projectBuilding} 
+                  alt="Architectural project" 
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 border-4 border-foreground/20 group-hover:border-foreground/40 transition-colors"></div>
+                {/* Geometric corner accents */}
+                <div className="absolute top-0 left-0 w-8 h-8 border-l-2 border-t-2 border-foreground/50"></div>
+                <div className="absolute top-0 right-0 w-8 h-8 border-r-2 border-t-2 border-foreground/50"></div>
+                <div className="absolute bottom-0 left-0 w-8 h-8 border-l-2 border-b-2 border-foreground/50"></div>
+                <div className="absolute bottom-0 right-0 w-8 h-8 border-r-2 border-b-2 border-foreground/50"></div>
               </div>
             </section>
           </div>
