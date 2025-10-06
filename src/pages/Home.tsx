@@ -14,17 +14,6 @@ const Home = () => {
           alt="Modern architectural building" 
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-background/40"></div>
-        <div className="absolute inset-0 grid grid-cols-12 grid-rows-8 gap-px opacity-20">
-          {Array.from({ length: 96 }).map((_, i) => (
-            <div key={i} className="border border-foreground"></div>
-          ))}
-        </div>
-        {/* Geometric wireframe overlay */}
-        <div className="absolute top-10 left-10 w-24 h-24 border-2 border-foreground/30 rotate-45"></div>
-        <div className="absolute bottom-10 right-10 w-32 h-32 border-2 border-foreground/30">
-          <div className="absolute inset-4 border-2 border-foreground/30"></div>
-        </div>
       </section>
 
       {/* Main Content */}
