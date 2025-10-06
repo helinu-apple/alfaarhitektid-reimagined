@@ -14,6 +14,11 @@ const Home = () => {
           alt="Modern architectural building" 
           className="absolute inset-0 w-full h-full object-cover"
         />
+        {/* Minimal corner brackets */}
+        <div className="absolute top-4 left-4 w-12 h-12 border-l-2 border-t-2 border-foreground/30"></div>
+        <div className="absolute top-4 right-4 w-12 h-12 border-r-2 border-t-2 border-foreground/30"></div>
+        <div className="absolute bottom-4 left-4 w-12 h-12 border-l-2 border-b-2 border-foreground/30"></div>
+        <div className="absolute bottom-4 right-4 w-12 h-12 border-r-2 border-b-2 border-foreground/30"></div>
       </section>
 
       {/* Main Content */}
@@ -34,30 +39,48 @@ const Home = () => {
 
             <ul className="space-y-2 mb-12">
               <li className="text-muted-foreground flex items-start">
-                <span className="w-2 h-2 bg-foreground inline-block mr-3 mt-2 flex-shrink-0"></span>
+                <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
+                  <span className="absolute inset-0 border-2 border-foreground"></span>
+                  <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
+                </span>
                 <span>arhitektuurne/konstruktiivne projekteerimine</span>
               </li>
               <li className="text-muted-foreground flex items-start">
-                <span className="w-2 h-2 bg-foreground inline-block mr-3 mt-2 flex-shrink-0"></span>
+                <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
+                  <span className="absolute inset-0 border-2 border-foreground"></span>
+                  <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
+                </span>
                 <span>projekteerimistööde juhtimine</span>
               </li>
               <li className="text-muted-foreground flex items-start">
-                <span className="w-2 h-2 bg-foreground inline-block mr-3 mt-2 flex-shrink-0"></span>
+                <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
+                  <span className="absolute inset-0 border-2 border-foreground"></span>
+                  <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
+                </span>
                 <span>sisearhitektuuri projekteerimine</span>
               </li>
               <li className="text-muted-foreground flex items-start">
-                <span className="w-2 h-2 bg-foreground inline-block mr-3 mt-2 flex-shrink-0"></span>
+                <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
+                  <span className="absolute inset-0 border-2 border-foreground"></span>
+                  <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
+                </span>
                 <span>detailplaneeringute koostamine</span>
               </li>
               <li className="text-muted-foreground flex items-start">
-                <span className="w-2 h-2 bg-foreground inline-block mr-3 mt-2 flex-shrink-0"></span>
+                <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
+                  <span className="absolute inset-0 border-2 border-foreground"></span>
+                  <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
+                </span>
                 <span>arhitektuur-, sisekujundus- ja projekteerimisalane konsultatsioon.</span>
               </li>
             </ul>
 
             {/* Contact Section */}
             <section className="border-t border-border pt-12">
-              <h2 className="text-2xl font-light mb-8 text-foreground">Kontakt</h2>
+              <h2 className="text-2xl font-light mb-8 text-foreground flex items-center gap-3">
+                <span className="w-2 h-2 border border-foreground rotate-45"></span>
+                Kontakt
+              </h2>
               
               <div className="grid grid-cols-2 gap-8">
                 <div className="space-y-2 text-muted-foreground">
@@ -81,6 +104,11 @@ const Home = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2074.8!2d24.5!3d58.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ecfd1b5f5d5d5d%3A0x5d5d5d5d5d5d5d5d!2sR%C3%BC%C3%BCtli%2041%2C%20P%C3%A4rnu%2C%2080010%20P%C3%A4rnu%20maakond!5e0!3m2!1sen!2see!4v1234567890"
                   ></iframe>
+                  {/* Corner accents */}
+                  <div className="absolute top-0 left-0 w-6 h-6 border-l-2 border-t-2 border-foreground/40"></div>
+                  <div className="absolute top-0 right-0 w-6 h-6 border-r-2 border-t-2 border-foreground/40"></div>
+                  <div className="absolute bottom-0 left-0 w-6 h-6 border-l-2 border-b-2 border-foreground/40"></div>
+                  <div className="absolute bottom-0 right-0 w-6 h-6 border-r-2 border-b-2 border-foreground/40"></div>
                 </div>
               </div>
             </section>
@@ -90,12 +118,14 @@ const Home = () => {
           <div className="space-y-12">
             {/* Latest News */}
             <section>
-              <h2 className="text-xl font-light mb-6 text-foreground border-b border-border pb-2">
+              <h2 className="text-xl font-light mb-6 text-foreground border-b border-border pb-2 flex items-center gap-3">
+                <span className="w-2 h-2 border border-foreground rotate-45"></span>
                 Viimased uudised
               </h2>
               
               <div className="space-y-6">
-                <article>
+                <article className="relative pl-4 border-l-2 border-border">
+                  <div className="absolute -left-[5px] top-0 w-2 h-2 border border-foreground rotate-45 bg-background"></div>
                   <p className="text-sm text-muted-foreground mb-2">15. 12. 2010</p>
                   <h3 className="font-medium text-foreground mb-2">Reis Iisraeli</h3>
                   <p className="text-sm text-muted-foreground">
@@ -107,7 +137,8 @@ const Home = () => {
                   </a>
                 </article>
 
-                <article>
+                <article className="relative pl-4 border-l-2 border-border">
+                  <div className="absolute -left-[5px] top-0 w-2 h-2 border border-foreground rotate-45 bg-background"></div>
                   <p className="text-sm text-muted-foreground mb-2">09. 12. 2010</p>
                   <h3 className="font-medium text-foreground mb-2">Valmis meie uus kodulehekülg!</h3>
                   <p className="text-sm text-muted-foreground">
@@ -122,7 +153,8 @@ const Home = () => {
 
             {/* Projects */}
             <section>
-              <h2 className="text-xl font-light mb-6 text-foreground border-b border-border pb-2">
+              <h2 className="text-xl font-light mb-6 text-foreground border-b border-border pb-2 flex items-center gap-3">
+                <span className="w-2 h-2 border border-foreground rotate-45"></span>
                 Projektid
               </h2>
               
