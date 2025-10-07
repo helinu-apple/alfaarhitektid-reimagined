@@ -106,40 +106,6 @@ const Home = () => {
 
           {/* Right Column - Sidebar */}
           <div className="space-y-12">
-            {/* Latest News */}
-            <section>
-              <h2 className="text-xl font-light mb-6 text-foreground border-b border-border pb-2 flex items-center gap-3">
-                <span className="w-2 h-2 border border-foreground rotate-45"></span>
-                Viimased uudised
-              </h2>
-              
-              <div className="space-y-6">
-                <article className="relative pl-4 border-l-2 border-border">
-                  <div className="absolute -left-[5px] top-0 w-2 h-2 border border-foreground rotate-45 bg-background"></div>
-                  <p className="text-sm text-muted-foreground mb-2">15. 12. 2010</p>
-                  <h3 className="font-medium text-foreground mb-2">Reis Iisraeli</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Juudid oskavad väga muljataväldavaid hooneid ehitada. Siin üks uus õppehonne 
-                    Haifa Ülikooli üle mäe veera...
-                  </p>
-                  <a href="#" className="text-sm text-accent-foreground hover:text-foreground transition-colors">
-                    edasi »
-                  </a>
-                </article>
-
-                <article className="relative pl-4 border-l-2 border-border">
-                  <div className="absolute -left-[5px] top-0 w-2 h-2 border border-foreground rotate-45 bg-background"></div>
-                  <p className="text-sm text-muted-foreground mb-2">09. 12. 2010</p>
-                  <h3 className="font-medium text-foreground mb-2">Valmis meie uus kodulehekülg!</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Koostöös Meedia Disain OÜ meeskonnaga valmis meie uus kodulehekülg!...
-                  </p>
-                  <a href="#" className="text-sm text-accent-foreground hover:text-foreground transition-colors">
-                    edasi »
-                  </a>
-                </article>
-              </div>
-            </section>
 
             {/* Projects */}
             <section>
