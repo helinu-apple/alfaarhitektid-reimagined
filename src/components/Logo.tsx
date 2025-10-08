@@ -1,21 +1,16 @@
 const Logo = () => {
   return (
-    <div className="flex flex-col gap-2">
-      <div className="flex gap-1">
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-8 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
-        <div className="w-5 h-6 bg-foreground"></div>
+    <div className="flex items-center gap-1">
+      <div className="flex gap-[2px]">
+        <div className="w-6 h-6 bg-foreground"></div>
+        <div className="w-6 h-6 bg-foreground"></div>
+        <div className="w-6 h-6 bg-foreground"></div>
+        <div className="w-4 h-6 bg-foreground"></div>
         <div className="w-4 h-6 bg-foreground"></div>
         <div className="w-3 h-6 bg-foreground"></div>
         <div className="w-2 h-6 bg-foreground"></div>
-        <div className="w-1 h-6 bg-foreground"></div>
       </div>
-      <span className="text-sm font-light tracking-[0.4em] uppercase">
+      <span className="text-xl font-light tracking-[0.3em] ml-2">
         ALFA ARHITEKTID
       </span>
     </div>
