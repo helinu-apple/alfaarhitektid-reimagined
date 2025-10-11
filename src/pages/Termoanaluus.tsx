@@ -19,8 +19,10 @@ const Termoanaluus = () => {
             <p className="text-muted-foreground leading-relaxed">
               Pakume professionaalseid termoanalüüsi teenuseid, mis aitavad optimeerida 
               teie hoone energiatõhusust ja soojuslahendusi.
-              Enne kui otsustad osta korteri, maja või äripinna – kontrollime kui palju see sooja/tuult peab. Vajalike mõõteriistadega aitame hinnata soojapidavust ja õhulekkeid, et ennetada ootamatuid küttekulusid. See kergendab oluliselt otsustamist ja annab hoonest/hinnast adekvaatsema pildi valiku tegemiseks. Teostame infrapunakaameraga termograafilisi mõõdistusi soojalekete leidmiseks.
-              Lisaks teeme ala- või ülerõhustamise kaudu kindlaks hoone õhuvahetuse ja analüüsime õhulekkeid. Koostame vajadusel termoraporti ja anname eksperthinnangu või nõustame suuliselt kohe objektil. Loodame, et oma kogemuste ning asjatundlikkusega saame olla teile abiks.
+              Enne kui otsustad osta korteri, maja või äripinna – kontrollime kui palju see sooja/tuult peab. Vajalike mõõteriistadega aitame hinnata soojapidavust ja õhulekkeid, et ennetada ootamatuid küttekulusid. See kergendab oluliselt otsustamist ja annab hoonest/hinnast adekvaatsema pildi valiku tegemiseks. 
+              1. Teostame infrapunakaameraga termograafilisi mõõdistusi soojalekete leidmiseks.
+              2. Lisaks teeme ala- või ülerõhustamise kaudu kindlaks hoone õhuvahetuse ja analüüsime õhulekkeid. 
+              3.Koostame vajadusel termoraporti ja anname eksperthinnangu või nõustame suuliselt kohe objektil. Loodame, et oma kogemuste ning asjatundlikkusega saame olla teile abiks.
 
 Meie eksperdid  omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardistada ja analüüsida sinu tulevase kodu/korteri kvaliteeti enne ostu sooritamist
             </p>
