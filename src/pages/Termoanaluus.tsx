@@ -65,6 +65,41 @@ Meie eksperdid  omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardista
             </div>
           </section>
 
+          <section className="mt-12 space-y-6">
+            <div className="border-l-2 border-border pl-6 py-4">
+              <h2 className="text-xl font-light mb-4 text-foreground flex items-center gap-3">
+                <span className="w-2 h-2 border border-foreground rotate-45"></span>
+                Termoraport
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Termoraport koosneb kahest osast, et analüüs oleks võimalikult täpne.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Objektil viiakse vajaliku aparatuuriga läbi umbes 0,5h uuring. Hiljem töödeldakse infot 
+                vastava tarkvaraga ning väljastatakse termopraport.
+              </p>
+              
+              <div className="space-y-4">
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <h3 className="font-medium text-foreground mb-2">Välismõõdistused</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Näitel on krohitud seina soojustus üsna ebaühtlase soojapidavusega, puitfassaadi 
+                    ülemises ääres olevast tuulutussoonest väljub soojenenud õhk mis on veel normipiires.
+                  </p>
+                </div>
+                
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <h3 className="font-medium text-foreground mb-2">Ruumisisesed mõõdistused</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Näitel on õhuleke toanurgast ja soojalekked alumises seinaosas. Lisaks külmasild läbi 
+                    seina karkassipostide kohal. Seetõttu ruumis väga erinevad temperatuurid – ruumi õhk 20°C, 
+                    põranda nurk 7.5°C
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section className="mt-12 grid md:grid-cols-2 gap-6">
             <div className="border border-border rounded-lg p-6 bg-card hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3 mb-3">
