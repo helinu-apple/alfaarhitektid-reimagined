@@ -12,9 +12,9 @@ const Navigation = () => {
       <Link to="/projektid" className="text-muted-foreground hover:text-foreground transition-colors">
         Projektid
       </Link>
-      <Link to="/kontakt" className="text-muted-foreground hover:text-foreground transition-colors">
+      <a href="/#kontakt" className="text-muted-foreground hover:text-foreground transition-colors">
         Kontakt
-      </Link>
+      </a>
     </nav>
   );
 };

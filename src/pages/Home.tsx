@@ -112,7 +112,7 @@ const Home = () => {
             </ul>
 
             {/* Contact Section */}
-            <section className="border-t border-border pt-12">
+            <section id="kontakt" className="border-t border-border pt-12 scroll-mt-24">
               <h2 className="text-2xl font-light mb-8 text-foreground flex items-center gap-3">
                 <span className="w-2 h-2 border border-foreground rotate-45"></span>
                 Kontakt
