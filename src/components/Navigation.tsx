@@ -7,9 +7,6 @@ const Navigation = () => {
         Avaleht
       </Link>
       <Link to="/firmast" className="text-muted-foreground hover:text-foreground transition-colors">
-        Firmast
-      </Link>
-      <Link to="/projektid" className="text-muted-foreground hover:text-foreground transition-colors">
         Projektid
       </Link>
       <a href="/#kontakt" className="text-muted-foreground hover:text-foreground transition-colors">
