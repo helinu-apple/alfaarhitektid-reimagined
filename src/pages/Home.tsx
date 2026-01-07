@@ -121,9 +121,8 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-8">
                 <div className="space-y-2 text-muted-foreground">
                   <p className="font-medium text-foreground">Alfa Arhitektid OÜ</p>
-                  <p><span className="text-foreground">Aadress:</span> Rüütli 41, Pärnu 80010</p>
+                  <p><span className="text-foreground">Aadress:</span> Rähni 15, Pärnu 80019</p>
                   <p><span className="text-foreground">Mobiil:</span> +372 55 910 096</p>
-                  <p><span className="text-foreground">Faks:</span> +372 44 42 984</p>
                   <p><span className="text-foreground">E-mail:</span> toomas@alfaarhitektid.ee</p>
                   <p className="mt-4 text-sm">
                     Saatke e-maile siit või helistage numbrile +372 55 910 096.
@@ -138,7 +137,7 @@ const Home = () => {
                     loading="lazy"
                     allowFullScreen
                     referrerPolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2074.8!2d24.5!3d58.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ecfd1b5f5d5d5d%3A0x5d5d5d5d5d5d5d5d!2sR%C3%BC%C3%BCtli%2041%2C%20P%C3%A4rnu%2C%2080010%20P%C3%A4rnu%20maakond!5e0!3m2!1sen!2see!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2074.8!2d24.52!3d58.39!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ecfd1c0a0a0a0a%3A0x0a0a0a0a0a0a0a0a!2sR%C3%A4hni%2015%2C%20P%C3%A4rnu%2C%2080019%20P%C3%A4rnu%20maakond!5e0!3m2!1sen!2see!4v1234567890"
                   ></iframe>
                 </div>
               </div>
