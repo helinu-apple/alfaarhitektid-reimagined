@@ -32,7 +32,7 @@ const Termoanaluus = () => {
                 Loodame, et oma kogemuste ning asjatundlikkusega saame olla teile abiks.
               </p>
               <p>
-                Meie eksperdid omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardistada ja analüüsida sinu tulevase kodu/korteri kvaliteeti enne ostu sooritamist.
+                Meie eksperdid omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardistada ja analüüsida sinu kodu/korteri kvaliteeti ja vajalikke renoveerimistöid.
               </p>
             </div>
             
