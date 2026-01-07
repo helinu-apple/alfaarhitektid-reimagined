@@ -19,24 +19,6 @@ const Home = () => {
       {/* Services Cards Section */}
       <section className="container mx-auto px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Termoanalüüs Card */}
-          <a 
-            href="/termoanaluus"
-            className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
-          >
-            <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
-            <div className="absolute top-0 right-0 w-3 h-3 border-r-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
-            <div className="absolute bottom-0 left-0 w-3 h-3 border-l-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
-            <div className="absolute bottom-0 right-0 w-3 h-3 border-r-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
-            
-            <h3 className="text-2xl font-light mb-4 text-foreground group-hover:translate-x-1 transition-transform">
-              Termoanalüüs
-            </h3>
-            <p className="text-muted-foreground">
-              Energia- ja soojuslahenduste analüüs.
-            </p>
-          </a>
-
           {/* Projekteerimine Card */}
           <a 
             href="/projekteerimine"
@@ -47,11 +29,29 @@ const Home = () => {
             <div className="absolute bottom-0 left-0 w-3 h-3 border-l-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             <div className="absolute bottom-0 right-0 w-3 h-3 border-r-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             
-            <h3 className="text-2xl font-light mb-4 text-foreground group-hover:translate-x-1 transition-transform">
-              Projekteerimine
+            <h3 className="text-2xl font-bold mb-4 text-foreground group-hover:translate-x-1 transition-transform uppercase">
+              PROJEKTEERIMINE
             </h3>
             <p className="text-muted-foreground">
               Kujundame tellija soovid, ideed ning vajadused ilusasse ja funktsionaalsesse vormi.
+            </p>
+          </a>
+
+          {/* Termoanalüüs Card */}
+          <a 
+            href="/termoanaluus"
+            className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
+          >
+            <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
+            <div className="absolute top-0 right-0 w-3 h-3 border-r-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
+            <div className="absolute bottom-0 left-0 w-3 h-3 border-l-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
+            <div className="absolute bottom-0 right-0 w-3 h-3 border-r-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
+            
+            <h3 className="text-2xl font-bold mb-4 text-foreground group-hover:translate-x-1 transition-transform uppercase">
+              TERMOANALÜÜS
+            </h3>
+            <p className="text-muted-foreground">
+              Hoonete termograafia.
             </p>
           </a>
         </div>
