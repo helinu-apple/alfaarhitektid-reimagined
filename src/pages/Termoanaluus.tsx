@@ -100,29 +100,6 @@ Meie eksperdid  omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardista
             </div>
           </section>
 
-          <section className="mt-12 grid md:grid-cols-2 gap-6">
-            <div className="border border-border rounded-lg p-6 bg-card hover:shadow-lg transition-shadow">
-              <div className="flex items-start gap-3 mb-3">
-                <span className="w-2 h-2 border border-foreground rotate-45 mt-2 flex-shrink-0"></span>
-                <h3 className="text-xl font-light text-foreground">Mis on energiamärgis?</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Energiamärgis on dokument, mis näitab, kui palju hoone või selle osa (korter) tarbib energiat, 
-                mis kulub hoone kütmisele, jahutamisele, vee soojendamisele, ventilatsioonile, valgustusele vms.
-              </p>
-            </div>
-
-            <div className="border border-border rounded-lg p-6 bg-card hover:shadow-lg transition-shadow">
-              <div className="flex items-start gap-3 mb-3">
-                <span className="w-2 h-2 border border-foreground rotate-45 mt-2 flex-shrink-0"></span>
-                <h3 className="text-xl font-light text-foreground">Energiamärgis on kohustuslik</h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Korterit või hoonet müües või üürides on energiamärgise esitamine kohustuslik, 
-                kui ostja või üürilevõtja seda soovib.
-              </p>
-            </div>
-          </section>
         </div>
       </main>
     </div>
