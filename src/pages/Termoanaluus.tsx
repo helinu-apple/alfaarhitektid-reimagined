@@ -21,8 +21,7 @@ const Termoanaluus = () => {
               teie hoone energiatõhusust ja soojuslahendusi.
               Enne kui otsustad osta korteri, maja või äripinna – kontrollime kui palju see sooja/tuult peab. Vajalike mõõteriistadega aitame hinnata soojapidavust ja õhulekkeid, et ennetada ootamatuid küttekulusid. See kergendab oluliselt otsustamist ja annab hoonest/hinnast adekvaatsema pildi valiku tegemiseks. 
               1. Teostame infrapunakaameraga termograafilisi mõõdistusi soojalekete leidmiseks.
-              2. Lisaks teeme ala- või ülerõhustamise kaudu kindlaks hoone õhuvahetuse ja analüüsime õhulekkeid. 
-              3.Koostame vajadusel termoraporti ja anname eksperthinnangu või nõustame suuliselt kohe objektil. Loodame, et oma kogemuste ning asjatundlikkusega saame olla teile abiks.
+              2. Koostame vajadusel termoraporti ja anname eksperthinnangu või nõustame suuliselt kohe objektil. Loodame, et oma kogemuste ning asjatundlikkusega saame olla teile abiks.
 
 Meie eksperdid  omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardistada ja analüüsida sinu tulevase kodu/korteri kvaliteeti enne ostu sooritamist
             </p>
@@ -53,13 +52,6 @@ Meie eksperdid  omavad suuri kogemusi ehitusprotsessidest, mis aitavad kaardista
                     <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
                   </span>
                   <span>Kütte- ja ventilatsioonisüsteemide optimeerimine</span>
-                </li>
-                <li className="text-muted-foreground flex items-start">
-                  <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
-                    <span className="absolute inset-0 border-2 border-foreground"></span>
-                    <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
-                  </span>
-                  <span>Energiamärgise koostamine</span>
                 </li>
               </ul>
             </div>
