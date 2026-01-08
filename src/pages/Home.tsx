@@ -67,7 +67,7 @@ const Home = () => {
             </h1>
             
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Alfa Arhitektid OÜ on firma, kelle ülesanne on kujundada tellija soovid, ideed ning vajadused 
+              Alfa Arhitektid OÜ on firma, kelle eesmärk on kujundada tellija soovid, ideed ning vajadused 
               ilusasse ja funktsionaalsesse vormi.
             </p>
 
