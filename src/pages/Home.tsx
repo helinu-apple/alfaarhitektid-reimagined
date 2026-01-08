@@ -21,7 +21,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Projekteerimine Card */}
           <a 
-            href="/projekteerimine"
+            href="/projektid"
             className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
           >
             <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
@@ -147,7 +147,7 @@ const Home = () => {
                 Projektid
               </h2>
               
-              <div className="aspect-[4/3] bg-muted relative overflow-hidden group cursor-pointer">
+              <a href="/projektid" className="aspect-[4/3] bg-muted relative overflow-hidden group cursor-pointer block">
                 <img 
                   src={projectBuilding} 
                   alt="Architectural project" 
@@ -159,7 +159,7 @@ const Home = () => {
                 <div className="absolute top-0 right-0 w-8 h-8 border-r-2 border-t-2 border-foreground/50"></div>
                 <div className="absolute bottom-0 left-0 w-8 h-8 border-l-2 border-b-2 border-foreground/50"></div>
                 <div className="absolute bottom-0 right-0 w-8 h-8 border-r-2 border-b-2 border-foreground/50"></div>
-              </div>
+              </a>
             </section>
           </div>
         </div>
