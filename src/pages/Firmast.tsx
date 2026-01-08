@@ -50,13 +50,6 @@ const Firmast = () => {
                 <span className="absolute inset-0 border-2 border-foreground"></span>
                 <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
               </span>
-              <span>detailplaneeringute koostamine</span>
-            </li>
-            <li className="text-muted-foreground flex items-start">
-              <span className="relative w-3 h-3 mr-3 mt-2 flex-shrink-0">
-                <span className="absolute inset-0 border-2 border-foreground"></span>
-                <span className="absolute inset-0 border-t-2 border-l-2 border-foreground translate-x-[2px] translate-y-[2px]"></span>
-              </span>
               <span>arhitektuuri-, sisekujundus- ja projekteerimisalane konsultatsioon.</span>
             </li>
           </ul>
