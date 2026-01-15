@@ -2,6 +2,12 @@ import Header from "@/components/Header";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import project4 from "@/assets/project-4.jpg";
+import project5 from "@/assets/project-5.jpg";
+import project6 from "@/assets/project-6.jpg";
+import project7 from "@/assets/project-7.jpg";
+import project8 from "@/assets/project-8.jpg";
+import project9 from "@/assets/project-9.jpg";
 
 const Firmast = () => {
   return (
@@ -62,32 +68,16 @@ const Firmast = () => {
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="aspect-[4/3] bg-muted relative overflow-hidden group">
-                <img 
-                  src={project1} 
-                  alt="Architectural project 1" 
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 border-4 border-foreground/20 group-hover:border-foreground/40 transition-colors"></div>
-              </div>
-              
-              <div className="aspect-[4/3] bg-muted relative overflow-hidden group">
-                <img 
-                  src={project2} 
-                  alt="Architectural project 2" 
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 border-4 border-foreground/20 group-hover:border-foreground/40 transition-colors"></div>
-              </div>
-              
-              <div className="aspect-[4/3] bg-muted relative overflow-hidden group">
-                <img 
-                  src={project3} 
-                  alt="Architectural project 3" 
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 border-4 border-foreground/20 group-hover:border-foreground/40 transition-colors"></div>
-              </div>
+              {[project1, project2, project3, project4, project5, project6, project7, project8, project9].map((project, index) => (
+                <div key={index} className="aspect-[4/3] bg-muted relative overflow-hidden group">
+                  <img 
+                    src={project} 
+                    alt={`Architectural project ${index + 1}`} 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 border-4 border-foreground/20 group-hover:border-foreground/40 transition-colors"></div>
+                </div>
+              ))}
             </div>
           </section>
         </div>
