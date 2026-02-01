@@ -21,7 +21,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Projekteerimine Card */}
           <a 
-            href="/firmast"
+            href="/Firmast"
             className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
           >
             <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
@@ -39,7 +39,7 @@ const Home = () => {
 
           {/* Termoanalüüs Card */}
           <a 
-            href="/termoanaluus"
+            href="/Termoanaluus"
             className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
           >
             <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
