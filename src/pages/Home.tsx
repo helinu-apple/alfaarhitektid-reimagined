@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import heroBuilding from "@/assets/hero-building.jpg";
 import projectBuilding from "@/assets/project-building.jpg";
@@ -20,10 +21,10 @@ const Home = () => {
       <section className="container mx-auto px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Projekteerimine Card */}
-          <a 
-            href="/Firmast"
-            className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
-          >
+          <Link 
+  to="/firmast"
+  className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
+>
             <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             <div className="absolute top-0 right-0 w-3 h-3 border-r-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             <div className="absolute bottom-0 left-0 w-3 h-3 border-l-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
@@ -35,13 +36,13 @@ const Home = () => {
             <p className="text-muted-foreground">
               Kujundame tellija soovid, ideed ning vajadused ilusasse ja funktsionaalsesse vormi.
             </p>
-          </a>
+          </Link>
 
           {/* Termoanalüüs Card */}
-          <a 
-            href="/Termoanaluus"
-            className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
-          >
+          <Link 
+  to="/termoanaluus"
+  className="group relative p-8 border-2 border-border hover:border-foreground transition-all duration-300 bg-background hover:shadow-lg"
+>
             <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             <div className="absolute top-0 right-0 w-3 h-3 border-r-2 border-t-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
             <div className="absolute bottom-0 left-0 w-3 h-3 border-l-2 border-b-2 border-foreground/40 group-hover:border-foreground transition-colors"></div>
@@ -53,7 +54,7 @@ const Home = () => {
             <p className="text-muted-foreground">
               Hoonete termograafia.
             </p>
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -147,7 +148,7 @@ const Home = () => {
                 Projektid
               </h2>
               
-              <a href="/firmast" className="aspect-[4/3] bg-muted relative overflow-hidden group cursor-pointer block">
+              <Link to="/firmast" className="aspect-[4/3] bg-muted relative overflow-hidden group cursor-pointer block">
                 <img 
                   src={projectBuilding} 
                   alt="Architectural project" 
